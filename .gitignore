@@ -1,0 +1,69 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.log
+*.tmp
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# --- AI / ML Models ---
+*.h5
+*.ckpt
+*.pt
+*.bin
+*.pkl
+*.onnx
+*.model
+*.json
+*.tflite
+*.safetensors
+
+# Hugging Face cache
+~/.cache/huggingface/
+.cache/
+transformers_cache/
+datasets_cache/
+
+# --- Audio / Media ---
+*.wav
+*.mp3
+*.ogg
+*.mp4
+
+# --- GUI / Qt / Tkinter temporary files ---
+*.spec
+build/
+dist/
+*.manifest
+*.dll
+*.exe
+
+# --- IDE files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Installer / Output ---
+*.msi
+*.zip
+*.tar
+*.gz
+output/
